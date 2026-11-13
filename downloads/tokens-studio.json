@@ -1,0 +1,573 @@
+{
+  "global": {
+    "space": {
+      "space-1": {
+        "value": "4px",
+        "type": "spacing",
+        "description": "Ícone e texto colados; espaço interno de selo."
+      },
+      "space-2": {
+        "value": "8px",
+        "type": "spacing",
+        "description": "Entre ícone e rótulo; entre balões da conversa."
+      },
+      "space-3": {
+        "value": "12px",
+        "type": "spacing",
+        "description": "Espaço interno de campo e de item de menu."
+      },
+      "space-4": {
+        "value": "16px",
+        "type": "spacing",
+        "description": "Espaço interno de card no app; vão entre cards no app."
+      },
+      "space-5": {
+        "value": "24px",
+        "type": "spacing",
+        "description": "Espaço interno de card no web; vão entre cards no web."
+      },
+      "space-6": {
+        "value": "32px",
+        "type": "spacing",
+        "description": "Margem da área de conteúdo no web."
+      },
+      "space-7": {
+        "value": "48px",
+        "type": "spacing",
+        "description": "Separação entre seções de uma tela longa."
+      },
+      "space-8": {
+        "value": "64px",
+        "type": "spacing",
+        "description": "Respiro de telas vazias e de onboarding."
+      }
+    },
+    "radius": {
+      "radius-xs": {
+        "value": "4px",
+        "type": "borderRadius",
+        "description": "Etiqueta de origem e cauda do balão de conversa."
+      },
+      "radius-sm": {
+        "value": "8px",
+        "type": "borderRadius",
+        "description": "Botões, campos, itens de menu, avisos."
+      },
+      "radius-md": {
+        "value": "12px",
+        "type": "borderRadius",
+        "description": "Cards, tabelas, gráficos, toasts, balões."
+      },
+      "radius-lg": {
+        "value": "20px",
+        "type": "borderRadius",
+        "description": "Modais e folhas inferiores do app."
+      },
+      "radius-pill": {
+        "value": "999px",
+        "type": "borderRadius",
+        "description": "Selos de situação, seletor Empresa/Pessoal, barra de progresso."
+      }
+    },
+    "fontFamily": {
+      "sans": {
+        "value": "Manrope",
+        "type": "fontFamilies"
+      }
+    },
+    "typography": {
+      "display": {
+        "value": {
+          "fontFamily": "Manrope",
+          "fontWeight": "800",
+          "fontSize": "32px",
+          "lineHeight": "40px",
+          "letterSpacing": "-0.02em"
+        },
+        "type": "typography",
+        "description": "Título da tela no web; um por tela."
+      },
+      "title": {
+        "value": {
+          "fontFamily": "Manrope",
+          "fontWeight": "700",
+          "fontSize": "24px",
+          "lineHeight": "32px",
+          "letterSpacing": "-0.01em"
+        },
+        "type": "typography",
+        "description": "Título da tela no app e de modais."
+      },
+      "heading": {
+        "value": {
+          "fontFamily": "Manrope",
+          "fontWeight": "700",
+          "fontSize": "18px",
+          "lineHeight": "26px",
+          "letterSpacing": "0"
+        },
+        "type": "typography",
+        "description": "Título de card e de seção."
+      },
+      "body": {
+        "value": {
+          "fontFamily": "Manrope",
+          "fontWeight": "400",
+          "fontSize": "15px",
+          "lineHeight": "22px",
+          "letterSpacing": "0"
+        },
+        "type": "typography",
+        "description": "Texto corrido e células de tabela."
+      },
+      "body-strong": {
+        "value": {
+          "fontFamily": "Manrope",
+          "fontWeight": "600",
+          "fontSize": "15px",
+          "lineHeight": "22px",
+          "letterSpacing": "0"
+        },
+        "type": "typography",
+        "description": "Descrição de lançamento, item de lista."
+      },
+      "small": {
+        "value": {
+          "fontFamily": "Manrope",
+          "fontWeight": "500",
+          "fontSize": "13px",
+          "lineHeight": "18px",
+          "letterSpacing": "0"
+        },
+        "type": "typography",
+        "description": "Dicas de campo, metadados, notas de rodapé de card."
+      },
+      "label": {
+        "value": {
+          "fontFamily": "Manrope",
+          "fontWeight": "700",
+          "fontSize": "12px",
+          "lineHeight": "16px",
+          "letterSpacing": "0.06em"
+        },
+        "type": "typography",
+        "description": "Rótulo de KPI e cabeçalho de tabela, sempre em maiúsculas."
+      },
+      "figure-xl": {
+        "value": {
+          "fontFamily": "Manrope",
+          "fontWeight": "800",
+          "fontSize": "32px",
+          "lineHeight": "38px",
+          "letterSpacing": "-0.02em"
+        },
+        "type": "typography",
+        "description": "O número principal da tela: sobra de verdade, saldo livre."
+      },
+      "figure-lg": {
+        "value": {
+          "fontFamily": "Manrope",
+          "fontWeight": "700",
+          "fontSize": "24px",
+          "lineHeight": "30px",
+          "letterSpacing": "-0.01em"
+        },
+        "type": "typography",
+        "description": "Valor de KPI e total de card."
+      },
+      "figure": {
+        "value": {
+          "fontFamily": "Manrope",
+          "fontWeight": "600",
+          "fontSize": "15px",
+          "lineHeight": "22px",
+          "letterSpacing": "0"
+        },
+        "type": "typography",
+        "description": "Valores em tabela e lista."
+      }
+    }
+  },
+  "light": {
+    "canvas": {
+      "value": "#F3F5FA",
+      "type": "color",
+      "description": "Fundo da área de trabalho, atrás dos cards (web e app)."
+    },
+    "surface": {
+      "value": "#FFFFFF",
+      "type": "color",
+      "description": "Cards, tabelas, painéis e folhas."
+    },
+    "surface-sunken": {
+      "value": "#ECEFF6",
+      "type": "color",
+      "description": "Cabeçalho de tabela, poço de campo, segmento inativo."
+    },
+    "line": {
+      "value": "#DCE1EC",
+      "type": "color",
+      "description": "Divisórias e contornos de card (decorativo)."
+    },
+    "line-strong": {
+      "value": "#7D88A6",
+      "type": "color",
+      "description": "Borda de campo e de controle: 3:1 sobre surface e canvas."
+    },
+    "ink": {
+      "value": "#0A1233",
+      "type": "color",
+      "description": "Texto principal sobre canvas, surface e surface-sunken."
+    },
+    "ink-muted": {
+      "value": "#525D78",
+      "type": "color",
+      "description": "Texto secundário, rótulos e metadados sobre canvas, surface e surface-sunken."
+    },
+    "navy": {
+      "value": "#000B3D",
+      "type": "color",
+      "description": "Cor de marca: menu lateral do web, cabeçalho do app, blocos de marca. Igual nos dois modos."
+    },
+    "navy-block": {
+      "value": "#000B3D",
+      "type": "color",
+      "description": "Bloco de marca que precisa se destacar do fundo nos dois modos: capa, faixas e banners. No claro é igual a navy; no escuro clareia para não sumir no canvas."
+    },
+    "on-navy": {
+      "value": "#FFFFFF",
+      "type": "color",
+      "description": "Texto e ícones ativos sobre navy."
+    },
+    "on-navy-muted": {
+      "value": "#A9B3D6",
+      "type": "color",
+      "description": "Itens de menu inativos sobre navy."
+    },
+    "mint": {
+      "value": "#31EEAE",
+      "type": "color",
+      "description": "Menta do logo: preenchimento do botão principal, item ativo do menu, destaque sobre navy. Nunca como texto sobre fundo claro."
+    },
+    "emerald": {
+      "value": "#0FBB81",
+      "type": "color",
+      "description": "Esmeralda do logo: só em marca e ilustração sobre navy (3:1 ali). Não use em gráficos sobre fundo claro: a série realizado usa income."
+    },
+    "on-mint": {
+      "value": "#000B3D",
+      "type": "color",
+      "description": "Texto sobre preenchimento mint (rótulo do botão principal)."
+    },
+    "accent-text": {
+      "value": "#067A55",
+      "type": "color",
+      "description": "Verde da marca como texto: links, valores de destaque, aba ativa — sobre canvas, surface e accent-soft."
+    },
+    "accent-soft": {
+      "value": "#DDF8EE",
+      "type": "color",
+      "description": "Fundo tingido de destaque e de selecionado."
+    },
+    "env-empresa": {
+      "value": "#067A55",
+      "type": "color",
+      "description": "Ambiente Empresa: marcador, aba e títulos do espaço da empresa. Texto sobre surface e env-empresa-soft."
+    },
+    "env-empresa-soft": {
+      "value": "#DDF8EE",
+      "type": "color",
+      "description": "Fundo do selo e da faixa do ambiente Empresa."
+    },
+    "env-pessoal": {
+      "value": "#2852C8",
+      "type": "color",
+      "description": "Ambiente Pessoal: marcador, aba e títulos do espaço pessoal. Texto sobre surface e env-pessoal-soft."
+    },
+    "env-pessoal-soft": {
+      "value": "#E5ECFF",
+      "type": "color",
+      "description": "Fundo do selo e da faixa do ambiente Pessoal."
+    },
+    "income": {
+      "value": "#067A55",
+      "type": "color",
+      "description": "Entradas e receitas: sempre com + e seta para cima. Texto sobre surface e canvas."
+    },
+    "expense": {
+      "value": "#B42318",
+      "type": "color",
+      "description": "Saídas e despesas: sempre com − e seta para baixo. Texto sobre surface e canvas."
+    },
+    "forecast": {
+      "value": "#4F5FA8",
+      "type": "color",
+      "description": "Previsto e projeções: linha tracejada, valores futuros. Texto sobre surface."
+    },
+    "reserve": {
+      "value": "#875700",
+      "type": "color",
+      "description": "Reserva tributária (DAS, IBS, CBS). Texto sobre surface e reserve-soft."
+    },
+    "reserve-soft": {
+      "value": "#FFF2D4",
+      "type": "color",
+      "description": "Fundo do card e do selo de tributos."
+    },
+    "warning": {
+      "value": "#934A00",
+      "type": "color",
+      "description": "A vencer em breve. Texto sobre surface e warning-soft."
+    },
+    "warning-soft": {
+      "value": "#FFEFDD",
+      "type": "color",
+      "description": "Fundo do selo a vencer."
+    },
+    "danger": {
+      "value": "#B42318",
+      "type": "color",
+      "description": "Vencido, erro, ação destrutiva. Texto sobre surface e danger-soft."
+    },
+    "danger-soft": {
+      "value": "#FDE8E6",
+      "type": "color",
+      "description": "Fundo do selo vencido e do aviso de erro."
+    },
+    "success-soft": {
+      "value": "#DDF8EE",
+      "type": "color",
+      "description": "Fundo do selo pago e do aviso de sucesso (texto em income)."
+    },
+    "focus": {
+      "value": "#1F4FD1",
+      "type": "color",
+      "description": "Anel de foco do teclado: 2px sólido, 3:1 sobre canvas, surface e surface-sunken."
+    },
+    "focus-on-navy": {
+      "value": "#31EEAE",
+      "type": "color",
+      "description": "Anel de foco dentro do menu e de qualquer área navy."
+    },
+    "chat-bg": {
+      "value": "#E9EEF7",
+      "type": "color",
+      "description": "Fundo da conversa do WhatsApp nas telas de demonstração."
+    },
+    "chat-user": {
+      "value": "#D3F5E7",
+      "type": "color",
+      "description": "Balão do usuário na conversa. Texto ink."
+    },
+    "chat-bot": {
+      "value": "#FFFFFF",
+      "type": "color",
+      "description": "Balão do bot na conversa. Texto ink."
+    },
+    "shadow-card": {
+      "value": "0 1px 2px rgba(0, 11, 61, 0.06), 0 2px 8px rgba(0, 11, 61, 0.05)",
+      "type": "boxShadow",
+      "description": "Cards, tabelas e gráficos sobre canvas."
+    },
+    "shadow-pop": {
+      "value": "0 8px 24px rgba(0, 11, 61, 0.14)",
+      "type": "boxShadow",
+      "description": "Toast, menu suspenso, botão de lançar da barra do app."
+    }
+  },
+  "dark": {
+    "canvas": {
+      "value": "#040A26",
+      "type": "color",
+      "description": "Fundo da área de trabalho, atrás dos cards (web e app)."
+    },
+    "surface": {
+      "value": "#0B1538",
+      "type": "color",
+      "description": "Cards, tabelas, painéis e folhas."
+    },
+    "surface-sunken": {
+      "value": "#07102F",
+      "type": "color",
+      "description": "Cabeçalho de tabela, poço de campo, segmento inativo."
+    },
+    "line": {
+      "value": "#1F2B57",
+      "type": "color",
+      "description": "Divisórias e contornos de card (decorativo)."
+    },
+    "line-strong": {
+      "value": "#6B7AA6",
+      "type": "color",
+      "description": "Borda de campo e de controle: 3:1 sobre surface e canvas."
+    },
+    "ink": {
+      "value": "#EEF1FB",
+      "type": "color",
+      "description": "Texto principal sobre canvas, surface e surface-sunken."
+    },
+    "ink-muted": {
+      "value": "#A9B3CE",
+      "type": "color",
+      "description": "Texto secundário, rótulos e metadados sobre canvas, surface e surface-sunken."
+    },
+    "navy": {
+      "value": "#000B3D",
+      "type": "color",
+      "description": "Cor de marca: menu lateral do web, cabeçalho do app, blocos de marca. Igual nos dois modos."
+    },
+    "navy-block": {
+      "value": "#253C8E",
+      "type": "color",
+      "description": "Bloco de marca que precisa se destacar do fundo nos dois modos: capa, faixas e banners. No claro é igual a navy; no escuro clareia para não sumir no canvas."
+    },
+    "on-navy": {
+      "value": "#FFFFFF",
+      "type": "color",
+      "description": "Texto e ícones ativos sobre navy."
+    },
+    "on-navy-muted": {
+      "value": "#A9B3D6",
+      "type": "color",
+      "description": "Itens de menu inativos sobre navy."
+    },
+    "mint": {
+      "value": "#31EEAE",
+      "type": "color",
+      "description": "Menta do logo: preenchimento do botão principal, item ativo do menu, destaque sobre navy. Nunca como texto sobre fundo claro."
+    },
+    "emerald": {
+      "value": "#0FBB81",
+      "type": "color",
+      "description": "Esmeralda do logo: só em marca e ilustração sobre navy (3:1 ali). Não use em gráficos sobre fundo claro: a série realizado usa income."
+    },
+    "on-mint": {
+      "value": "#000B3D",
+      "type": "color",
+      "description": "Texto sobre preenchimento mint (rótulo do botão principal)."
+    },
+    "accent-text": {
+      "value": "#31EEAE",
+      "type": "color",
+      "description": "Verde da marca como texto: links, valores de destaque, aba ativa — sobre canvas, surface e accent-soft."
+    },
+    "accent-soft": {
+      "value": "#0C3B3D",
+      "type": "color",
+      "description": "Fundo tingido de destaque e de selecionado."
+    },
+    "env-empresa": {
+      "value": "#31EEAE",
+      "type": "color",
+      "description": "Ambiente Empresa: marcador, aba e títulos do espaço da empresa. Texto sobre surface e env-empresa-soft."
+    },
+    "env-empresa-soft": {
+      "value": "#0C3B3D",
+      "type": "color",
+      "description": "Fundo do selo e da faixa do ambiente Empresa."
+    },
+    "env-pessoal": {
+      "value": "#93B2FF",
+      "type": "color",
+      "description": "Ambiente Pessoal: marcador, aba e títulos do espaço pessoal. Texto sobre surface e env-pessoal-soft."
+    },
+    "env-pessoal-soft": {
+      "value": "#16295F",
+      "type": "color",
+      "description": "Fundo do selo e da faixa do ambiente Pessoal."
+    },
+    "income": {
+      "value": "#4FE8B2",
+      "type": "color",
+      "description": "Entradas e receitas: sempre com + e seta para cima. Texto sobre surface e canvas."
+    },
+    "expense": {
+      "value": "#FF8F85",
+      "type": "color",
+      "description": "Saídas e despesas: sempre com − e seta para baixo. Texto sobre surface e canvas."
+    },
+    "forecast": {
+      "value": "#AEB9F2",
+      "type": "color",
+      "description": "Previsto e projeções: linha tracejada, valores futuros. Texto sobre surface."
+    },
+    "reserve": {
+      "value": "#F5C451",
+      "type": "color",
+      "description": "Reserva tributária (DAS, IBS, CBS). Texto sobre surface e reserve-soft."
+    },
+    "reserve-soft": {
+      "value": "#3A2B07",
+      "type": "color",
+      "description": "Fundo do card e do selo de tributos."
+    },
+    "warning": {
+      "value": "#FFB870",
+      "type": "color",
+      "description": "A vencer em breve. Texto sobre surface e warning-soft."
+    },
+    "warning-soft": {
+      "value": "#3E2507",
+      "type": "color",
+      "description": "Fundo do selo a vencer."
+    },
+    "danger": {
+      "value": "#FF8F85",
+      "type": "color",
+      "description": "Vencido, erro, ação destrutiva. Texto sobre surface e danger-soft."
+    },
+    "danger-soft": {
+      "value": "#40160F",
+      "type": "color",
+      "description": "Fundo do selo vencido e do aviso de erro."
+    },
+    "success-soft": {
+      "value": "#0C3B3D",
+      "type": "color",
+      "description": "Fundo do selo pago e do aviso de sucesso (texto em income)."
+    },
+    "focus": {
+      "value": "#31EEAE",
+      "type": "color",
+      "description": "Anel de foco do teclado: 2px sólido, 3:1 sobre canvas, surface e surface-sunken."
+    },
+    "focus-on-navy": {
+      "value": "#31EEAE",
+      "type": "color",
+      "description": "Anel de foco dentro do menu e de qualquer área navy."
+    },
+    "chat-bg": {
+      "value": "#060E2B",
+      "type": "color",
+      "description": "Fundo da conversa do WhatsApp nas telas de demonstração."
+    },
+    "chat-user": {
+      "value": "#0E4A45",
+      "type": "color",
+      "description": "Balão do usuário na conversa. Texto ink."
+    },
+    "chat-bot": {
+      "value": "#13204A",
+      "type": "color",
+      "description": "Balão do bot na conversa. Texto ink."
+    },
+    "shadow-card": {
+      "value": "0 0 0 1px rgba(255, 255, 255, 0.04)",
+      "type": "boxShadow",
+      "description": "Cards, tabelas e gráficos sobre canvas."
+    },
+    "shadow-pop": {
+      "value": "0 8px 24px rgba(0, 0, 0, 0.5)",
+      "type": "boxShadow",
+      "description": "Toast, menu suspenso, botão de lançar da barra do app."
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global",
+      "light",
+      "dark"
+    ]
+  }
+}
